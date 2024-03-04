@@ -36,3 +36,15 @@ print(myArray)
 # 'f'	float	float	4
 # 'd'	double	float	8
 # Note: The 'u' type code corresponds to Python’s unicode character. On narrow Unicode builds this is 2-bytes on wide builds this is 4-bytes.
+
+
+#creating an array with numpy module
+
+
+import numpy as np
+myArray2 = np.array([1,2,3,4,5])
+
+print(myArray2)
+
+print(type(myArray2))
+
