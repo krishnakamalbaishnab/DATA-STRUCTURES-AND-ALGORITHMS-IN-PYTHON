@@ -6,9 +6,9 @@ myArray = np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
 # print(myArray)
 
 def searchelement(array, value):
-    for i in range(len(array)):
-        for j in range(len(array[0])):
-            if array[i][j] == value:
+    for i in range(len(array)):  #------------------------------------> O(n)           |
+        for j in range(len(array[0])): #------------------------------> O(m)           |   -----> O(n*m) {Time Complexity}
+            if array[i][j] == value: #--------------------------------> O(1)           |
                 return f"Element found at index {i},{j}"
     return "Element not found"
 
