@@ -18,4 +18,3 @@ traverseArray(myTwodArray)
 
 
 #the space complexity of the traversal operation is O(1) because we are not using any extra space to traverse the array. We are just visiting each element of the array once.
-
