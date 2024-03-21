@@ -21,3 +21,5 @@ print(searchelement(myArray, 7))
 #the time complexity of the search operation is O(n*m) because we are visiting each element of the array once.
 
 #the space complexity of the search operation is O(1) because we are not using any extra space to search the array. We are just visiting each element of the array once.
+
+#the above code can also be written using while loop. The code is given below:
