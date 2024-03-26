@@ -13,10 +13,26 @@ target = 5
 
 #leinear Search
 
-def linearSearch(list, traget):
-    for i, value in enumerate(list):
-        if value == target:
-            return i
-        return "Not Found"
+# def linearSearch(list, traget):
+#     for i, value in enumerate(list):
+#         if value == target:
+#             return i
+#         return "Not Found"
 
-print(linearSearch(myList, target))
+# print(linearSearch(myList, target))
+
+
+
+
+
+
+userInputList = []
+
+numberOfElements = int(input("Enter the number of elements in the list: "))
+
+for i in range(numberOfElements):
+    userInputList.append(int(input(f"Enter the {i+1}{'st' if i==0 else 'nd' if i==1 else 'th'} number: ")))
+
+avg = sum(userInputList) / len(userInputList)
+
+print(f"Average of the list is: {avg}")
