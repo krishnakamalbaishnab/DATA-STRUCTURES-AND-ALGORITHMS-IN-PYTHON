@@ -1,15 +1,18 @@
-#   Created by Elshad Karimov on 23/04/2020.
-#   Copyright © 2020 AppMillers. All rights reserved.
+
 
 # Q-1. What will be the output of the following code block?
 a=[1,2,3,4,5,6,7,8,9]
 print(a[::2])
+
+# 1357 // one interval
 
 # Q-2. What will be the output of the following code snippet?
 
 a=[1,2,3,4,5,6,7,8,9]
 a[::2]=10,20,30,40,50,60
 print(a)
+
+# output A
 # A. ValueError: attempt to assign sequence of size 6 to extended slice of size 5
 # B. [10, 2, 20, 4, 30, 6, 40, 8, 50, 60]
 # C. [1, 2, 10, 20, 30, 40, 50, 60]
