@@ -30,6 +30,8 @@ print(a[3:0:-1])
 # D. [4, 3, 2, 1]
 
 
+
+
  
 
 # Q-4. What will be the output of the following code snippet?
@@ -43,7 +45,7 @@ f(t, v)
 print(t, v[0])
 # A. 1 44
 # B. 3 1
-# C. 3 44
+# C. 3 44 Answer
 # D. 1 1
 
 
@@ -54,7 +56,7 @@ print(t, v[0])
 fruit=['apple', 'banana', 'papaya', 'cherry']
 # A. fruit.shuffle()
 # B. shuffle(fruit)
-# C. random.shuffle(fruit)
+# C. random.shuffle(fruit) answer
 # D. random.shuffleList(fruit)
 
 
