@@ -54,13 +54,6 @@ def get_number(number):
     # else:
     #     return 'Negative number'
 
-# replaceList = [get_number(number) for number in list10]
-# print(replaceList)
+replaceList = [get_number(number) for number in list10]
+print(replaceList)
 
-
-temp = get_number(list10)
-
-print(temp)
-
-
-a = 
