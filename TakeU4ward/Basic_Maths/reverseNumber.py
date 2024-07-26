@@ -6,4 +6,5 @@ def reverse(x):
         x = x//10
     return reverseNumber
 
+
 print(reverse(123))
