@@ -19,7 +19,7 @@ def isArmstrong(num):
         ld = n % 10
         # Add the digit raised to
         # the power of k to the sum
-        sum += ld ** k
+        sum += ld ** k #sum = sum + ld to the power 3
         # Remove the last digit
         # from the number
         n = n // 10
